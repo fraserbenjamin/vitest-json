@@ -23,7 +23,7 @@
   "scripts": {
     "lint": "eslint index.ts && prettier --list-different index.ts",
     "test": "vitest",
-    "test:snapshot": "vitest --snapshot",
+    "test:snapshot": "vitest --update",
     "build": "tsc"
   },
   "peerDependencies": {

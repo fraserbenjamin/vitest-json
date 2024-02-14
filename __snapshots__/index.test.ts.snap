@@ -6,15 +6,6 @@ exports[`toMatchJSON > assertion error has a nice output 2`] = `
 [Error: [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoMatchJSON[2m([22m[32mexpected[39m[2m)[22m 
 
 Expected: not [32mObject {
-  "foo": "bar",
-  "spam": "eggs",
-}[39m]
-`;
-
-exports[`toMatchJSON > assertion error has a nice output 3`] = `
-[Error: [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoMatchJSON[2m([22m[32mexpected[39m[2m)[22m 
-
-Expected: not [32mObject {
   "foo": Anything,
   "spam": "eggs",
 }[39m

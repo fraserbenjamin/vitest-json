@@ -1,6 +1,6 @@
 {
   "name": "vitest-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vitest matcher for working with JSON",
   "author": "Fraser Benjamin",
   "repository": "fraserbenjamin/vitest-json",
@@ -21,7 +21,7 @@
     "index.d.ts"
   ],
   "scripts": {
-    "lint": "eslint index.ts && prettier --list-different index.ts",
+    "lint": "eslint ./src && tsc --noEmit",
     "test": "vitest",
     "test:snapshot": "vitest --update",
     "build": "tsc"

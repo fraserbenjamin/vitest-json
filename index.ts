@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { expect } from "vitest";
 
 const errorMarker = "__INTERNALERRORMARKER__";

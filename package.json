@@ -21,7 +21,7 @@
     "index.d.ts"
   ],
   "scripts": {
-    "lint": "eslint index.ts && prettier --list-different index.ts && tsc --noEmit",
+    "lint": "eslint index.ts && prettier --list-different index.ts",
     "test": "vitest",
     "test:snapshot": "vitest --snapshot",
     "build": "tsc"

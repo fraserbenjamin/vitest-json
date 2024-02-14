@@ -18,6 +18,9 @@ describe("toMatchJSON", () => {
       expect(json).toMatchJSON({ foo: "baz" })
     ).toThrowErrorMatchingSnapshot();
     expect(() =>
+      expect(json).not.toMatchJSON({ foo: "bar", spam: "eggs" })
+    ).toThrowErrorMatchingSnapshot();
+    expect(() =>
       expect(json).not.toMatchJSON({ foo: expect.anything(), spam: "eggs" })
     ).toThrowErrorMatchingSnapshot();
   });
